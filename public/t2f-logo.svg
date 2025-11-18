@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="text" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffef9f"/>
+      <stop offset="100%" stop-color="#ffb84d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark rounded background for maximum visibility -->
+  <rect width="256" height="256" rx="60" fill="#0d0d0d"/>
+
+  <!-- Huge T2F monogram, centered -->
+  <text
+    x="128"
+    y="165"
+    text-anchor="middle"
+    font-family="Inter, Segoe UI, sans-serif"
+    font-weight="900"
+    fill="url(#text)"
+  >
+    <tspan font-size="130">T</tspan>
+    <tspan font-size="75" dy="-40">2</tspan>
+    <tspan font-size="130" dy="40">F</tspan>
+  </text>
+</svg>
